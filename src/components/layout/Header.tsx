@@ -43,9 +43,11 @@ export const Header: React.FC = () => {
           </nav>
 
           <div className="hidden lg:block">
-            <Button variant="primary" size="sm">
-              Orçamento via WhatsApp
-            </Button>
+            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+              <Button variant="primary" size="sm">
+                Orçamento via WhatsApp
+              </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -71,9 +73,11 @@ export const Header: React.FC = () => {
               {link.name}
             </a>
           ))}
-          <Button variant="primary" fullWidth>
-            Orçamento via WhatsApp
-          </Button>
+          <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer" className="w-full">
+            <Button variant="primary" fullWidth>
+              Orçamento via WhatsApp
+            </Button>
+          </a>
         </div>
       )}
     </header>
