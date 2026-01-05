@@ -43,7 +43,7 @@ export const Header: React.FC = () => {
           </nav>
 
           <div className="hidden lg:block">
-            <a href="https://wa.me/5500000000000" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/5511973693204" target="_blank" rel="noopener noreferrer">
               <Button variant="secondary" size="sm">
                 Orçamento via WhatsApp
               </Button>

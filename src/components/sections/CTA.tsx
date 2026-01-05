@@ -16,7 +16,7 @@ export const CTA: React.FC = () => {
         <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
           Faça um orçamento agora mesmo e tenha seu aparelho novo de novo ainda hoje. Atendimento rápido e personalizado.
         </p>
-        <a href="https://wa.me/5511973693204">
+        <a href="https://wa.me/5511973693204" target="_blank" rel="noopener noreferrer">
           <Button size="lg" variant="secondary" className="gap-2 text-lg px-8 py-6 shadow-xl shadow-secondary/20 hover:shadow-secondary/30 transform hover:-translate-y-1 transition-all">
           <MessageCircle size={24} />
           Falar no WhatsApp agora
