@@ -27,10 +27,10 @@ export const HowItWorks: React.FC = () => {
   ];
 
   return (
-    <section id="how-it-works" className="py-20 bg-white">
+    <section id="how-it-works" className="py-12 lg:py-20 bg-white">
       <Container>
-        <div className="text-center mb-16">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Como funciona</h2>
+        <div className="text-center mb-12 lg:mb-16">
+          <h2 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-4">Como funciona</h2>
           <p className="text-gray-600 max-w-2xl mx-auto">
             Processo simples, transparente e sem burocracia.
           </p>
@@ -40,7 +40,7 @@ export const HowItWorks: React.FC = () => {
           {/* Connector Line (Desktop) */}
           <div className="hidden lg:block absolute top-12 left-0 w-full h-0.5 bg-gray-100 -z-10" />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
             {steps.map((step, index) => (
               <div key={index} className="flex flex-col items-center text-center bg-white">
                 <div className="w-24 h-24 bg-white border-4 border-blue-50 rounded-full flex items-center justify-center text-primary mb-6 shadow-sm z-10">

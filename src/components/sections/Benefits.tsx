@@ -27,9 +27,9 @@ export const Benefits: React.FC = () => {
   ];
 
   return (
-    <section className="py-12 bg-white border-b border-gray-50">
+    <section className="py-12 lg:py-16 bg-white border-b border-gray-50">
       <Container>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">
           {benefits.map((benefit, index) => (
             <div key={index} className="flex flex-col items-center text-center group hover:-translate-y-1 transition-transform duration-300">
               <div className="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center mb-4 text-primary group-hover:bg-primary group-hover:text-white transition-colors duration-300 shadow-sm">

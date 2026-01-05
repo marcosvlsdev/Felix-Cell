@@ -27,12 +27,12 @@ export const Testimonials: React.FC = () => {
   ];
 
   return (
-    <section id="testimonials" className="py-20 bg-gray-50">
+    <section id="testimonials" className="py-12 lg:py-20 bg-gray-50">
       <Container>
-        <div className="flex flex-col lg:flex-row gap-12 items-center mb-16">
+        <div className="flex flex-col lg:flex-row gap-8 lg:gap-12 items-center mb-12 lg:mb-16">
           <div className="lg:w-1/3">
             <Badge variant="info" className="mb-4">Prova Social</Badge>
-            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
+            <h2 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-6">
               O que dizem nossos clientes
             </h2>
             <p className="text-gray-600 mb-8 leading-relaxed">

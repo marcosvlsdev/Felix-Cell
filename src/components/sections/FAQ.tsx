@@ -48,10 +48,10 @@ export const FAQ: React.FC = () => {
   ];
 
   return (
-    <section id="faq" className="py-20 bg-white">
+    <section id="faq" className="py-12 lg:py-20 bg-white">
       <Container>
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">Dúvidas Frequentes</h2>
+          <h2 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-4">Dúvidas Frequentes</h2>
           <p className="text-gray-600">Tudo o que você precisa saber antes de consertar seu celular.</p>
         </div>
 

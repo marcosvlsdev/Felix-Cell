@@ -5,9 +5,9 @@ import { ArrowRight, CheckCircle } from 'lucide-react';
 
 export const Hero: React.FC = () => {
   return (
-    <section id="home" className="pt-32 pb-20 lg:pt-40 lg:pb-28 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+    <section id="home" className="pt-28 pb-12 lg:pt-40 lg:pb-28 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
       <Container>
-        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
+        <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-20">
           <div className="lg:w-1/2 space-y-8 animate-in slide-in-from-left-5 duration-700">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-primary text-sm font-medium border border-blue-100">
               <CheckCircle size={14} />

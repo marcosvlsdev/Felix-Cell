@@ -5,12 +5,12 @@ import { MessageCircle } from 'lucide-react';
 
 export const CTA: React.FC = () => {
   return (
-    <section className="py-20 bg-primary relative overflow-hidden">
+    <section className="py-12 lg:py-20 bg-primary relative overflow-hidden">
       <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1556742502-ec7c0e9f34b1?q=80&w=2574&auto=format&fit=crop')] opacity-10 bg-cover bg-center mix-blend-overlay" />
       <div className="absolute inset-0 bg-gradient-to-r from-primary to-primary/90" />
       
       <Container className="relative z-10 text-center">
-        <h2 className="text-3xl lg:text-5xl font-bold text-white mb-6">
+        <h2 className="text-2xl lg:text-5xl font-bold text-white mb-6">
           Não fique sem seu celular
         </h2>
         <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
