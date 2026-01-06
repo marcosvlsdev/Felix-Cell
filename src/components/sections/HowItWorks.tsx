@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '../layout/Container';
-import { Search, PenTool, CheckCircle, Smartphone,  QrCode, Link } from 'lucide-react';
+import { Search, PenTool, CheckCircle, Smartphone, QrCode, Link } from 'lucide-react';
 
 export const HowItWorks: React.FC = () => {
   const steps = [
