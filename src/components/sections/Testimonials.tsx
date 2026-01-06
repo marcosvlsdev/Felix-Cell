@@ -8,15 +8,15 @@ import { Badge } from '../ui/Badge';
 export const Testimonials: React.FC = () => {
   const testimonials = [
     {
-      name: 'Mariana Silva',
+      name: 'Jussara Gomes',
       role: 'iPhone 13 Pro',
-      content: 'Achei que tinha perdido meu iPhone depois que caiu na piscina. A Felix Cell recuperou em 1 dia! Serviço impecável.',
+      content: 'Excelente profissional persistente, confiável. Deixei o meu IPhone e mesmo sendo um modelo mais simples tratou com super interesse até resolver o problema que parecia ser impossível ao meu ponto de vista de resolver. Recomendo de olhos fechados.',
       rating: 5
     },
     {
-      name: 'Carlos Mendes',
+      name: 'André Santos',
       role: 'Samsung S22',
-      content: 'Atendimento rápido e preço justo. Trocaram a tela do meu Samsung em 40 minutos. Recomendo muito!',
+      content: 'Muito bom profissional. Além de resolver o problema do celular deixou gerado. Muito caprichoso o nota mil. Indico. Em galera tá te parabéns ótimo serviço que Deus te abençoe grandemente',
       rating: 5
     },
     {
