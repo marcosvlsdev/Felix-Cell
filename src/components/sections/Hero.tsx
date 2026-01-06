@@ -11,7 +11,7 @@ export const Hero: React.FC = () => {
           <div className="lg:w-1/2 space-y-8 animate-in slide-in-from-left-5 duration-700">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-primary text-sm font-medium border border-blue-100">
               <CheckCircle size={14} />
-              <span>Garantia de 90 dias em todos os serviços</span>
+              <span>Garantia em todos os serviços</span>
             </div>
             
             <h1 className="text-4xl lg:text-6xl font-bold tracking-tight text-gray-900 leading-tight">
@@ -20,7 +20,7 @@ export const Hero: React.FC = () => {
             </h1>
             
             <p className="text-lg text-gray-600 leading-relaxed max-w-xl">
-              Conserto especializado em iPhone, Samsung e multímarcas com peças de alta qualidade e técnicos certificados. Seu aparelho pronto em até 2 horas.
+              Conserto especializado em iPhone, Samsung e multímarcas com peças de alta qualidade e técnicos certificados. Seu aparelho pronto em até 1 hora.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

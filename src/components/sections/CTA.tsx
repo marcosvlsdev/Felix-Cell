@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '../layout/Container';
 import { Button } from '../ui/Button';
-import { MessageCircle } from 'lucide-react';
+import { MessageCircle, Star } from 'lucide-react';
 
 export const CTA: React.FC = () => {
   return (
@@ -16,12 +16,21 @@ export const CTA: React.FC = () => {
         <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
           Faça um orçamento agora mesmo e tenha seu aparelho novo de novo ainda hoje. Atendimento rápido e personalizado.
         </p>
-        <a href="https://wa.me/5511973693204" target="_blank" rel="noopener noreferrer">
-          <Button size="lg" variant="secondary" className="gap-2 text-lg px-8 py-6 shadow-xl shadow-secondary/20 hover:shadow-secondary/30 transform hover:-translate-y-1 transition-all">
-          <MessageCircle size={24} />
-          Falar no WhatsApp agora
-        </Button>
-        </a>
+        <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
+          <a href="https://wa.me/5511973693204" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" variant="secondary" className="gap-2 text-lg px-8 py-6 shadow-xl shadow-secondary/20 hover:shadow-secondary/30 transform hover:-translate-y-1 transition-all w-full md:w-auto">
+              <MessageCircle size={24} />
+              Falar no WhatsApp agora
+            </Button>
+          </a>
+          
+          <a href="https://share.google/NeEc9LvYsKHIAqa4n" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" variant="outline" className="gap-2 text-lg px-8 py-6 text-white border-white hover:bg-white/10 transform hover:-translate-y-1 transition-all w-full md:w-auto">
+              <Star size={24} />
+              Nos Avalie no Google
+            </Button>
+          </a>
+        </div>
      
       </Container>
     </section>

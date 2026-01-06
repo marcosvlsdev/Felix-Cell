@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from '../layout/Container';
-import { Search, PenTool, CheckCircle, Smartphone } from 'lucide-react';
+import { Search, PenTool, CheckCircle, Smartphone, CreditCard, QrCode, Link } from 'lucide-react';
 
 export const HowItWorks: React.FC = () => {
   const steps = [
@@ -31,13 +31,23 @@ export const HowItWorks: React.FC = () => {
       <Container>
         <div className="text-center mb-12 lg:mb-16">
           <h2 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-4">Conheça nosso Delivery</h2>
-          <p className="text-gray-600 max-w-2xl mx-auto">
-            Processo simples, transparente e sem burocracia.
+          <p className="text-gray-600 max-w-2xl mx-auto mb-8">
+            Processo simples, transparente e sem burocracia.<br/>
+            <span className="text-emerald-600 max-w-2xl mx-auto mb-8">Frete Gratís para a Região de Santo André! </span> 
           </p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <div className="flex items-center gap-3 px-6 py-3 bg-gray-50 rounded-full border border-gray-100 shadow-sm text-gray-700 hover:bg-emerald-50 hover:border-emerald-100 transition-colors">
+              <QrCode className="text-emerald-500" size={20} />
+              <span className="font-medium">Pix</span>
+            </div>
+            <div className="flex items-center gap-3 px-6 py-3 bg-gray-50 rounded-full border border-gray-100 shadow-sm text-gray-700 hover:bg-blue-50 hover:border-blue-100 transition-colors">
+              <Link className="text-blue-500" size={20} />
+              <span className="font-medium">Link de Pagamento </span>
+            </div>
+          </div>
         </div>
 
         <div className="relative">
-          {/* Connector Line (Desktop) */}
           <div className="hidden lg:block absolute top-12 left-0 w-full h-0.5 bg-gray-100 -z-10" />
 
           <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-8">

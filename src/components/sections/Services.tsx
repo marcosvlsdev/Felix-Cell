@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from '../layout/Container';
 import { Card } from '../ui/Card';
-import { Smartphone, Battery, Cpu, Droplets, ArrowRight } from 'lucide-react';
+import { Smartphone, Battery, Cpu, Droplets } from 'lucide-react';
 
 export const Services: React.FC = () => {
   const services = [
@@ -48,9 +48,7 @@ export const Services: React.FC = () => {
               <p className="text-gray-500 text-sm mb-6 flex-grow leading-relaxed">
                 {service.description}
               </p>
-              <div className="flex items-center text-primary font-semibold text-sm group-hover:gap-2 transition-all">
-                Saiba mais <ArrowRight size={16} className="ml-1" />
-              </div>
+
             </Card>
           ))}
         </div>
