@@ -33,7 +33,7 @@ export const HowItWorks: React.FC = () => {
           <h2 className="text-2xl lg:text-4xl font-bold text-gray-900 mb-4">Conheça nosso Delivery</h2>
           <p className="text-gray-600 max-w-2xl mx-auto mb-8">
             Processo simples, transparente e sem burocracia.<br/>
-            <span className="text-emerald-600 max-w-2xl mx-auto mb-8">Frete Gratís para a Região de Santo André! </span> 
+            <span className="text-emerald-600 max-w-2xl mx-auto mb-8">Frete Grátis para a Região de Santo André! </span> 
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <div className="flex items-center gap-3 px-6 py-3 bg-gray-50 rounded-full border border-gray-100 shadow-sm text-gray-700 hover:bg-emerald-50 hover:border-emerald-100 transition-colors">
