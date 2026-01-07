@@ -31,13 +31,13 @@ export const Hero: React.FC = () => {
             
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="https://wa.me/5511973693204" target="_blank" rel="noopener noreferrer">
-                <Button size="lg" className="gap-2 shadow-lg shadow-primary/20">
+                <Button size="lg" className="gap-2 shadow-lg shadow-primary/20 cursor-pointer">
                   Quero um orçamento agora
                   <ArrowRight size={20} />
                 </Button>
               </a>
               <a href="#services">
-                <Button variant="outline" size="lg">
+                <Button variant="outline" size="lg" className="cursor-pointer">
                   Ver serviços
                 </Button>
               </a>

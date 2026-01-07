@@ -9,9 +9,9 @@ export const Header: React.FC = () => {
   const navLinks = [
     { name: 'Início', href: '#home' },
     { name: 'Serviços', href: '#services' },
-    { name: 'Como Funciona', href: '#how-it-works' },
     { name: 'Depoimentos', href: '#testimonials' },
     { name: 'FAQ', href: '#faq' },
+    {name: 'Delivery', href: '#how-it-works'}
   ];
 
   return (
@@ -26,6 +26,9 @@ export const Header: React.FC = () => {
             </div>
             <span className="text-2xl font-bold tracking-tight text-gray-900">
               Felix <span className="text-secondary">Cell</span>
+            </span>
+            <span className="text-sm text-gray-400">
+              Santo André
             </span>
           </div>
 
