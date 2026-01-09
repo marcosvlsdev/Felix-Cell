@@ -9,9 +9,9 @@ export const Header: React.FC = () => {
   const navLinks = [
     { name: 'Início', href: '#home' },
     { name: 'Serviços', href: '#services' },
+    { name: 'Delivery', href: '#how-it-works'},
     { name: 'Depoimentos', href: '#testimonials' },
-    { name: 'FAQ', href: '#faq' },
-    {name: 'Delivery', href: '#how-it-works'}
+    { name: 'FAQ', href: '#faq' }
   ];
 
   return (
