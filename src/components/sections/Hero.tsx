@@ -16,7 +16,7 @@ export const Hero: React.FC = () => {
               </div>
               <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary text-white text-sm font-bold border border-secondary-dark shadow-lg ">
                 <Zap size={14} />
-                <span>Concerto na hora!</span>
+                <span>Conserto na hora!</span>
               </div>
             </div>
             
@@ -26,7 +26,7 @@ export const Hero: React.FC = () => {
             </h1>
             
             <p className="text-lg text-gray-600 leading-relaxed max-w-xl">
-              Conserto especializado em iPhone, Samsung e multímarcas com peças de alta qualidade e técnicos certificados. Seu aparelho pronto em até 1 hora.
+              Conserto de celulares com peças de alta qualidade e técnicos certificados. Seu aparelho pronto em até 1 hora.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

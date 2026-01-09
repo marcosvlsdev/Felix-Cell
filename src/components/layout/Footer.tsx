@@ -16,10 +16,10 @@ export const Footer: React.FC = () => {
               Qualidade, confiança e agilidade no conserto do seu celular. Especialistas em Apple, Samsung e Multimarcas.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-primary transition-colors">
+              <a href="https://www.instagram.com/felixcell36/" className="bg-gray-800 p-2 rounded-full hover:bg-primary transition-colors" target='_blank'>
                 <Instagram size={20} />
               </a>
-              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-primary transition-colors">
+              <a href="#" className="bg-gray-800 p-2 rounded-full hover:bg-primary transition-colors" target='_blank'>
                 <Facebook size={20} />
               </a>
             </div>
